@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Suite" duration-ms="18403" started-at="2023-12-19T13:26:07Z" finished-at="2023-12-19T13:26:26Z">
+    <groups>
+    </groups>
+    <test name="RestAssured_POC" duration-ms="18403" started-at="2023-12-19T13:26:07Z" finished-at="2023-12-19T13:26:26Z">
+      <class name="examples.test2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:examples.test2@256216b3]" name="setup" is-config="true" duration-ms="1555" started-at="2023-12-19T13:26:07Z" finished-at="2023-12-19T13:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getRequest()[pri:1, instance:examples.test2@256216b3]" name="getRequest" duration-ms="3564" started-at="2023-12-19T13:26:09Z" description="Get Scenario" finished-at="2023-12-19T13:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequest -->
+        <test-method status="PASS" signature="getRequestWithQueryParam()[pri:2, instance:examples.test2@256216b3]" name="getRequestWithQueryParam" duration-ms="2550" started-at="2023-12-19T13:26:12Z" description="Get with QueryParams Scenario" finished-at="2023-12-19T13:26:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestWithQueryParam -->
+        <test-method status="PASS" signature="postRequest()[pri:3, instance:examples.test2@256216b3]" name="postRequest" duration-ms="3457" started-at="2023-12-19T13:26:15Z" description="Post Scenario" finished-at="2023-12-19T13:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method status="PASS" signature="putRequest()[pri:4, instance:examples.test2@256216b3]" name="putRequest" duration-ms="2604" started-at="2023-12-19T13:26:18Z" description="Put Scenario" finished-at="2023-12-19T13:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequest -->
+        <test-method status="PASS" signature="patchRequest()[pri:5, instance:examples.test2@256216b3]" name="patchRequest" duration-ms="2786" started-at="2023-12-19T13:26:21Z" description="Patch Scenario" finished-at="2023-12-19T13:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchRequest -->
+        <test-method status="PASS" signature="deleteRequest()[pri:6, instance:examples.test2@256216b3]" name="deleteRequest" duration-ms="1821" started-at="2023-12-19T13:26:24Z" description="Delete Scenario" finished-at="2023-12-19T13:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRequest -->
+      </class> <!-- examples.test2 -->
+    </test> <!-- RestAssured_POC -->
+  </suite> <!-- My Suite -->
+</testng-results>

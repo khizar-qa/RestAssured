@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Suite]">
+  <test thread-count="5" name="RestAssured_POC(failed)">
+    <classes>
+      <class name="examples.test2">
+        <methods>
+          <include name="setup"/>
+          <include name="putRequest"/>
+          <include name="patchRequest"/>
+        </methods>
+      </class> <!-- examples.test2 -->
+    </classes>
+  </test> <!-- RestAssured_POC(failed) -->
+</suite> <!-- Failed suite [My Suite] -->
